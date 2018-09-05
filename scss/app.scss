@@ -1,0 +1,21 @@
+@import "rec";
+@import "var";
+@import "reset";
+@import "header";
+@import "slider";
+@import "navbar";
+@import "helpers";
+@import "footer";
+@import "rank";
+@import "search";
+@import "palying";
+
+body {
+    background: $body-background;
+}
+html , body{
+    height: 100%;
+}
+.noscroll {
+    overflow: hidden;
+}

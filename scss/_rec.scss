@@ -1,0 +1,56 @@
+.radios, .otherl {
+    margin: 14px 10px 10px;
+    .list_more {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        > a {
+            display: inline-block;
+            font-size: 14px;
+            font-size: 14px;
+            color: rgba(0,0,0,.6);
+        }
+    }
+    .title{
+        color: #000;
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        .list-item {
+            flex: 1;
+            font-size: 14px;
+            background: #fff;
+            &:first-child {
+                margin-right: 8px;
+            }
+            .list-title {
+                height: 36px;
+                margin-top: 5px;
+                padding: 0 5px;
+            }
+            .list-media {
+                position: relative;
+            }
+            .icon {
+                background-repeat: no-repeat;
+                background-size: 24px 60px;
+                background-image: url('../images/list-play.png')
+            }
+            .icon-play {
+                position: absolute;
+                height: 24px;
+                bottom: 5px;
+                right: 5px;
+                width: 24px;
+                background-position: 0 0;
+            }
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
